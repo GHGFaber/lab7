@@ -43,7 +43,7 @@ const App = () => {
     },
     {
       path:"/new",
-      element: <CreatePost />
+      element: <CreatePost posts={posts}/>
     }
   ]);
 
